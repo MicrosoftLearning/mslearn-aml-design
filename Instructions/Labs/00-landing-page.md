@@ -14,10 +14,10 @@ Currently, the data scientists use their personal laptops for any machine learni
 
 ## Which Azure service would you recommend to the data science team for machine learning workloads?
 
-- [Azure Machine Learning](./Q1/01-aml.md)
+> [Azure Machine Learning](./Q1/01-aml.md)
 
-- [Azure Databricks](./Q1/02-adb.md)
+> [Azure Databricks](./Q1/02-adb.md)
 
-- [Azure Synapse Analytics](./Q1/03-synapse.md)
+> [Azure Synapse Analytics](./Q1/03-synapse.md)
 
-- [Azure Virtual Machine](./Q1/04-vm.md)
+> [Azure Virtual Machine](./Q1/04-vm.md)
