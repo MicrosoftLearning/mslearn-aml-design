@@ -1,10 +1,10 @@
 ---
-title: Online Hosted Instructions
+title: Design Games
 permalink: index.html
 layout: home
 ---
 
-# Content Directory
+# Choose your adventure
 
 Hyperlinks to each of the lab exercises and demos are listed below.
 
