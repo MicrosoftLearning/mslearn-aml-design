@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
-    module: 'Module 1: Exploring Azure Resource Manager'
+    title: 'Game: Choose the appropriate services'
+    module: 'Module 1: Design a machine learning solution'
 ---
 
 # Game: Design architecture

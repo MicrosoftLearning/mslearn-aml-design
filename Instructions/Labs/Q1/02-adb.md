@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
-    module: 'Module 1: Exploring Azure Resource Manager'
----
-
 # Game: Design architecture
 
 ## Interesting!
