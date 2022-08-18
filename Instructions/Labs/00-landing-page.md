@@ -4,6 +4,22 @@ lab:
     module: 'Module 1: Design a machine learning solution'
 ---
 
+<style>
+.button  {
+  border: none;
+  color: black;
+  width: 100%;
+  background-color: white;
+  border: 2px solid #008CBA;
+  transition-duration: 0.4s;
+}
+.button:hover  {
+  background-color: #008CBA;
+  color: white; 
+  border: 2px solid #008CBA;
+}
+</style>
+
 # Game: Design architecture
 
 ## Nice to meet you!
@@ -14,10 +30,11 @@ Currently, the data scientists use their personal laptops for any machine learni
 
 ## Which Azure service would you recommend to the data science team for machine learning workloads?
 
-> [Azure Machine Learning](./Q1/01.md)
+<button class="button" onclick="window.location.href='Q1/01';">Azure Machine Learning</button>
 
-> [Azure Databricks](./Q1/02.md)
+<button class="button" onclick="window.location.href='./Q1/02';">Azure Databricks</button>
 
-> [Azure Synapse Analytics](./Q1/03.md)
+<button class="button" onclick="window.location.href='./Q1/03.md';">Azure Synapse Analytics</button>
 
-> [Azure Virtual Machine](./Q1/04.md)
+<button class="button" onclick="window.location.href='Q1/03.md';">Azure Virtual Machine</button>
+
