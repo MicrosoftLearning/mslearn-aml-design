@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Game: Choose the appropriate services'
-    module: 'Module: Design a data ingestion strategy'
+    module: 'Module: Design a model deployment strategy'
 ---
 
 <style>
