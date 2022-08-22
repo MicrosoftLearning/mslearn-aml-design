@@ -1,0 +1,52 @@
+<style>
+.button  {
+  border: none;
+  color: black;
+  width: 100%;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #008CBA;
+  transition-duration: 0.4s;
+}
+.button:hover  {
+  background-color: #008CBA;
+  color: white; 
+  border: 2px solid #008CBA;
+}
+.resetbutton  {
+  border: none;
+  color: black;
+  float: right;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+}
+.resetbutton:hover  {
+  background-color: #f44336;
+  color: white; 
+  border: 2px solid #f44336;
+}
+</style>
+
+## Good question!
+
+Our data engineers and data analysts are already working with Azure. One of the first large data-related projects we implemented was to create a data ingestion and transformation pipeline. The data engineers have mostly worked with Azure Synapse Analytics to create those pipelines.
+
+Data is collected from multiple sources, like the Customer Relationship Management (CRM) system we use for patient data. After collection, the data is cleaned, prepped, and saved to a SQL database. 
+
+Finally, data analysts use Power BI on top of that SQL database to visualize necessary insights. They've created reports which are used by our customers on a daily basis.
+
+You should have enough information to advise us now.
+
+## Which scenario would you like to hear about?
+
+<button class="button" onclick="window.location.href='../advice/01';">Give advice on how to detect diabetes.</button>
+
+<button class="button" onclick="window.location.href='../advice/02';">Give advice on how to detect skin abnormalities.</button>
+
+<button class="button" onclick="window.location.href='../advice/03';">Give advice on how to analyze patient satisfaction.</button>
+
+<p style="text-align:right;"><i>All progress will be lost when you reset the game.</i></p>
+
+<button class="resetbutton" onclick="window.location.href='../../00-start-training';">Reset game and go back to start</button>
