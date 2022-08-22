@@ -23,7 +23,7 @@ lab:
 .resetbutton  {
   border: none;
   color: black;
-  float: right;
+  width: 100%;
   padding: 12px 28px;
   background-color: white;
   border: 2px solid #f44336;
@@ -42,8 +42,8 @@ lab:
 
 You're about to start an interactive game in the form of a dialog. There are two parts to the dialog:
 
-1. **Explore**: Learn to ask the most appropriate question to get more information about the case study.
-2. **Advise**: Use the gathered information to give advice on how to design a solution to the proposed problem. There are three scenarios to choose from. You can do as many scenarios as you'd like.
+- **Explore**: Learn to ask the most appropriate question to get more information about the case study.
+- **Advise**: Use the gathered information to give advice on how to design a solution to the proposed problem. There are three scenarios to choose from. You can do as many scenarios as you'd like.
 
 Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
 
