@@ -29,15 +29,9 @@
 }
 </style>
 
-## Good question!
+## You've heard enough?
 
-Our data engineers and data analysts are already working with Azure. One of the first large data-related projects we implemented was to create a data ingestion and transformation pipeline. The data engineers have mostly worked with Azure Synapse Analytics to create those pipelines.
-
-Data is collected from multiple sources, like the Customer Relationship Management (CRM) system we use for patient data. After collection, the data is cleaned, prepped, and saved to a SQL database. 
-
-Finally, data analysts use Power BI on top of that SQL database to visualize necessary insights. They've created reports which are used by our customers on a daily basis.
-
-You should have enough information to advise us now.
+Great! Now that you have enough information, you can help us by giving advice on what to do. There are three scenarios we want to implement in the near future.
 
 ## Which scenario would you like to hear about?
 
