@@ -43,25 +43,33 @@ lab:
 You're about to start an interactive game in the form of a dialog. There are two parts to the dialog:
 
 1. **Explore**: Learn to ask the most appropriate question to get more information about the case study.
-2. **Advice**: Use the gathered information to give advice on how to design a solution to the proposed problem. 
+2. **Advise**: Use the gathered information to give advice on how to design a solution to the proposed problem. There are three scenarios to choose from. You can do as many scenarios as you'd like.
 
-Each time, there will be one optimal response. You'll immediately get feedback to know whether you chose correctly.
+Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
 
 > **Tip:**
 > The game doesn't save the information you've gathered. Take notes during the exploration phase if you want to revisit the information when giving advice.
 
 ## Case study
 
-Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work. Once you've learned more about working at Proseware, you can give them advice on one of the three scenarios that they need your help with.
+Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work by exploring. 
+
+Once you've learned more about working at Proseware, you can give them advice on one of the three scenarios that they need your help with.
 
 ## What would you like to do?
 
+### Explore
+
 <button class="button" onclick="window.location.href='training/explore/01';">Explore and learn more about the work at Proseware.</button>
+
+### Advise
 
 <button class="button" onclick="window.location.href='training/advice/02';">Give advice on how to detect diabetes.</button>
 
 <button class="button" onclick="window.location.href='training/advice/03';">Give advice on how to detect skin abnormalities.</button>
 
 <button class="button" onclick="window.location.href='training/advice/04';">Give advice on how to analyze patient satisfaction.</button>
+
+### Do another game
 
 <button class="resetbutton" onclick="window.location.href='https://microsoftlearning.github.io/mslearn-aml-design/';">Back to games overview</button>
