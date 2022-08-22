@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Game: Choose the appropriate services'
+    title: 'Game: Choose the model training strategy'
     module: 'Module: Design a model training strategy'
 ---
 
@@ -19,23 +19,49 @@ lab:
   color: white; 
   border: 2px solid #008CBA;
 }
+
+.resetbutton  {
+  border: none;
+  color: black;
+  float: right;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+}
+.resetbutton:hover  {
+  background-color: #f44336;
+  color: white; 
+  border: 2px solid #f44336;
+}
 </style>
 
-# Game: Design architecture
+# Start 
 
-## Nice to meet you!
+## Design a model training strategy 
 
-Hi! Welcome to Proseware. We've hired you as a data scientist to help us machine learning models to support an app for our health care practitioners. The app will help the practitioners in diagnosing their patients more quickly. The data science team has created machine learning models by using medical data. The first model we want to integrate with the app is a diabetes classification model. 
+You're about to start an interactive game in the form of a dialog. There are two parts to the dialog:
 
-Currently, the data science team uses their personal laptops for any machine learning workloads. We want them to work in Azure to more easily share code and use cloud compute for heavier workloads. We also don't want them to store data on their personal devices anymore but instead, work with data directly from an Azure storage solution.
+1. **Explore**: Learn to ask the most appropriate question to get more information about the case study.
+2. **Advice**: Use the gathered information to give advice on how to design a solution to the proposed problem. 
 
-## Which Azure service would you recommend to the data science team for machine learning workloads?
+Each time, there will be one optimal response. You'll immediately get feedback to know whether you chose correctly.
 
-<button class="button" onclick="window.location.href='Q1/01';">Azure Machine Learning</button>
+> **Tip:**
+> The game doesn't save the information you've gathered. Take notes during the exploration phase if you want to revisit the information when giving advice.
 
-<button class="button" onclick="window.location.href='Q1/02';">Azure Databricks</button>
+## Case study
 
-<button class="button" onclick="window.location.href='Q1/03';">Azure Synapse Analytics</button>
+Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work. Once you've learned more about working at Proseware, you can give them advice on one of the three scenarios that they need your help with.
 
-<button class="button" onclick="window.location.href='Q1/04';">Data Science Virtual Machine</button>
+## What would you like to do?
 
+<button class="button" onclick="window.location.href='training/explore/01';">Explore and learn more about the work at Proseware.</button>
+
+<button class="button" onclick="window.location.href='training/advice/02';">Give advice on how to detect diabetes.</button>
+
+<button class="button" onclick="window.location.href='training/advice/03';">Give advice on how to detect skin abnormalities.</button>
+
+<button class="button" onclick="window.location.href='training/advice/04';">Give advice on how to analyze patient satisfaction.</button>
+
+<button class="resetbutton" onclick="window.location.href='https://microsoftlearning.github.io/mslearn-aml-design/';">Back to games overview</button>

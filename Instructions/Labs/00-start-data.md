@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Game: Choose the appropriate services'
+    title: 'Game: Choose the data ingestion strategy'
     module: 'Module: Design a data ingestion strategy'
 ---
 
@@ -46,12 +46,12 @@ Currently, we have some medical data that we could use to predict whether a pati
 
 ## What would you like to know?
 
-<button class="button" onclick="window.location.href='Q1/01';">What will the app look like?</button>
+<button class="button" onclick="window.location.href='explore/01';">What will the app look like?</button>
 
-<button class="button" onclick="window.location.href='Q1/02';">Where is the data currently stored?</button>
+<button class="button" onclick="window.location.href='explore/02';">Where is the data currently stored?</button>
 
-<button class="button" onclick="window.location.href='Q1/03';">Can I explore the data?</button>
+<button class="button" onclick="window.location.href='explore/03';">Can I explore the data?</button>
 
-<button class="button" onclick="window.location.href='Q1/04';">Did someone already train a diabetes classification model?</button>
+<button class="button" onclick="window.location.href='explore/04';">Who will work on this project?</button>
 
 <button class="resetbutton" onclick="window.location.href='https://microsoftlearning.github.io/mslearn-aml-design/';">Back to start</button>
