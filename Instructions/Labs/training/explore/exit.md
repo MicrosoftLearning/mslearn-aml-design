@@ -29,11 +29,11 @@
 }
 </style>
 
-## You've heard enough?
+## You've explored enough?
 
 Great! Now that you have enough information, you can help us by giving advice on what to do. There are three scenarios we want to implement in the near future.
 
-## Which scenario would you like to hear about?
+## Which scenario would you like to learn about?
 
 <button class="button" onclick="window.location.href='../advice/01';">Give advice on how to detect diabetes.</button>
 
