@@ -47,6 +47,7 @@ It's a small team, we only have two other data scientists you'll be leading. We 
 Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?
 </details>
 
+</br>
 <details>
 <summary><font size="+1">What tools do you currently use for machine learning projects?</font></summary>
 
@@ -55,12 +56,14 @@ The data science team is brand new so we haven't created any guidelines on what 
 So far, the data scientists seem to be working on their own devices. Which is fine for now, but not scalable. We want them to work in Azure so that we can use more scalable and cost-efficient compute.
 </details>
 
+</br>
 <details>
 <summary><font size="+1">Which programming language do the data scientists use?</font></summary>
 
 The data scientists only work in Python. They work in Jupyter notebooks.
 </details>
 
+</br>
 <details>
 <summary><font size="+1">Do you already use the cloud for other data-related projects?</font></summary>
 
