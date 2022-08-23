@@ -53,7 +53,7 @@ Imagine you've just been hired as a data scientist at a company called Proseware
 
 ## What would you like to do?
 
-<button class="button" onclick="window.location.href='training/advice/diabetes/01';">Give advice on how to detect diabetes.</button>
+<button class="button" onclick="window.location.href='training/diabetes/01';">Give advice on how to detect diabetes.</button>
 
 <button class="button" onclick="window.location.href='training/advice/skin';">Give advice on how to detect skin abnormalities.</button>
 
