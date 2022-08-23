@@ -64,11 +64,11 @@ Once you've learned more about working at Proseware, you can give them advice on
 
 ### Advise
 
-<button class="button" onclick="window.location.href='training/advice/02';">Give advice on how to detect diabetes.</button>
+<button class="button" onclick="window.location.href='training/advice/diabetes';">Give advice on how to detect diabetes.</button>
 
-<button class="button" onclick="window.location.href='training/advice/03';">Give advice on how to detect skin abnormalities.</button>
+<button class="button" onclick="window.location.href='training/advice/skin';">Give advice on how to detect skin abnormalities.</button>
 
-<button class="button" onclick="window.location.href='training/advice/04';">Give advice on how to analyze patient satisfaction.</button>
+<button class="button" onclick="window.location.href='training/advice/satisfaction';">Give advice on how to analyze patient satisfaction.</button>
 
 ### Do another game
 
