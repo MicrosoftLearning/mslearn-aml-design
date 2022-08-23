@@ -67,6 +67,7 @@ if (hintUsed = 0) {
   answer = "You already used one hint.";
 }
 document.getElementById("hints").innerHTML = answer;
+</script>
 </details>
 
 
