@@ -40,54 +40,13 @@ We hired you to be our lead data scientist. We want you to help us create machin
 ### Get more information
 Need to know more before you can give advice? Select a question below to find out more about the use case.
 
-<p id="hints"></p>
-
-<script>
-let hintUsed = 0;
-</script>
-
+<br>
 <details>
 <summary><font size="+1">What can you tell me about the current data science team?</font></summary>
-<script>
-if (hintUsed < 1) {
-  answer = "It's a small team, we only have two other data scientists you'll be leading. We therefore advise you to allocate your time wisely. Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?"; 
-} else {
-  answer = "You already used one hint.";
-}
-document.getElementById("hints").innerHTML = answer;
-let hintUsed = 0;
-</script>
+It's a small team, we only have two other data scientists you'll be leading. We therefore advise you to allocate your time wisely. 
+
+Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?
 </details>
-
-<details>
-<summary><font size="+1">Which programming language do the data scientists use?</font></summary>
-<script>
-if (hintUsed < 1) {
-  answer = "The data scientists only work in Python. They work in Jupyter notebooks";
-} else {
-  answer = "You already used one hint.";
-}
-document.getElementById("hints").innerHTML = answer;
-let hintUsed = 1;
-</script>
-</details>
-
-
-
-## Which tool would you recommend we use to train the model?
-
-<button class="button" onclick="window.location.href='04B';">Azure Databricks</button>
-
-<button class="button" onclick="window.location.href='04A';">Azure Machine Learning</button>
-
-<button class="button" onclick="window.location.href='04B';">Azure Synapse Analytics</button>
-
-<button class="button" onclick="window.location.href='04B';">Azure Data Science Virtual Machine</button>
-
-<p style="text-align:right;"><i>All progress will be lost when you reset the game.</i></p>
-
-<button class="resetbutton" onclick="window.location.href='../../00-start-training';">Reset game and go back to start</button>
-
 
 <br>
 <details>
@@ -111,3 +70,22 @@ The data scientists only work in Python. They work in Jupyter notebooks.
 
 We work with Azure for some other data-related projects. Currently, we mostly focus on getting insights from operational data. We ingest and transform data with Azure Synapse Analytics. The transformed data is stored in an Azure SQL Database which serves a Power BI report. 
 </details>
+
+
+## Which tool would you recommend we use to train the model?
+
+<button class="button" onclick="window.location.href='04B';">Azure Databricks</button>
+
+<button class="button" onclick="window.location.href='04A';">Azure Machine Learning</button>
+
+<button class="button" onclick="window.location.href='04B';">Azure Synapse Analytics</button>
+
+<button class="button" onclick="window.location.href='04B';">Azure Data Science Virtual Machine</button>
+
+<p style="text-align:right;"><i>All progress will be lost when you reset the game.</i></p>
+
+<button class="resetbutton" onclick="window.location.href='../../00-start-training';">Reset game and go back to start</button>
+
+
+
+
