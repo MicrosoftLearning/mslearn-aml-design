@@ -47,9 +47,6 @@ You're about to start an interactive game in the form of a dialog. There are two
 
 Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
 
-> **Tip:**
-> The game doesn't save the information you've gathered. Take notes during the exploration phase if you want to revisit the information when giving advice.
-
 ## Case study
 
 Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work by exploring. 
