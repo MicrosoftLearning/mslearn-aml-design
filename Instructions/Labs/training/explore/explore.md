@@ -39,7 +39,6 @@ As a data scientist, we expect you to help us create machine learning models whi
 
 ### Select a question to view the answer
 
-<br/>
 <details>
 <summary><font size="+1">Could you tell me more about the team I'll work with?</font></summary>
 
@@ -48,7 +47,6 @@ We only just decided to work with machine learning models, so the current data s
 It would be really helpful if you could work more closely together with the other two data scientists. You should be able to build on each other's work and easily share your code. Preferably, we would want to have a library of code snippets you could reuse for new projects to speed up the development process.
 </details>
 
-<br/>
 <details>
 <summary><font size="+1">What tools do you currently use for machine learning projects?</font></summary>
 
@@ -57,14 +55,12 @@ We just started our data science team. So far, the data scientists seem to be wo
 Ideally, we do want them to work with a cloud service so that we can use more scalable and cost-efficient compute. Since we work a lot with medical and privacy-sensitive data, we also want to avoid people having a copy of the data on their own device.
 </details>
 
-<br/>
 <details>
 <summary><font size="+1">Which programming language do these data scientists use?</font></summary>
 
 The data scientists only work in Python. They work in Jupyter notebooks.
 </details>
 
-<br/>
 <details>
 <summary><font size="+1">Do you already use the cloud for other data-related projects?</font></summary>
 
