@@ -37,8 +37,10 @@ Currently, we're working on several solutions which will support health care pra
 
 We hired you to be our lead data scientist. We want you to help us create machine learning models which will support the solutions we're developing.
 
-### Select a question to view the answer
+### Get more information
+Need to know more before you can give advice? Select a question below to find out more about the use case.
 
+<br>
 <details>
 <summary><font size="+1">What can you tell me about the current data science team?</font></summary>
 
@@ -47,7 +49,7 @@ It's a small team, we only have two other data scientists you'll be leading. We 
 Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?
 </details>
 
-</br>
+<br>
 <details>
 <summary><font size="+1">What tools do you currently use for machine learning projects?</font></summary>
 
@@ -56,14 +58,14 @@ The data science team is brand new so we haven't created any guidelines on what 
 So far, the data scientists seem to be working on their own devices. Which is fine for now, but not scalable. We want them to work in Azure so that we can use more scalable and cost-efficient compute.
 </details>
 
-</br>
+<br>
 <details>
 <summary><font size="+1">Which programming language do the data scientists use?</font></summary>
 
 The data scientists only work in Python. They work in Jupyter notebooks.
 </details>
 
-</br>
+<br>
 <details>
 <summary><font size="+1">Do you already use the cloud for other data-related projects?</font></summary>
 
