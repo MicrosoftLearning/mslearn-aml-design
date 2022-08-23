@@ -35,28 +35,28 @@ Welcome to Proseware! Proseware is a start-up which specializes in creating solu
 
 Currently, we're working on several solutions which will support health care practitioners like doctors and nurses in their day-to-day job. By helping them be more data-driven, we're hoping to help them faster diagnose diseases and minimize risk.
 
-As a data scientist, we expect you to help us create machine learning models which will support the solutions we're developing.
+We hired you to be our lead data scientist. We want you to help us create machine learning models which will support the solutions we're developing.
 
 ### Select a question to view the answer
 
 <details>
-<summary><font size="+1">Could you tell me more about the team I'll work with?</font></summary>
+<summary><font size="+1">What can you tell me about the current data science team?</font></summary>
 
-We only just decided to work with machine learning models, so the current data science team is quite small. We therefore advise you to allocate your time wisely. 
+It's a small team, we only have two other data scientists you'll be leading. We therefore advise you to allocate your time wisely. 
 
-It would be really helpful if you could work more closely together with the other two data scientists. You should be able to build on each other's work and easily share your code. Preferably, we would want to have a library of code snippets you could reuse for new projects to speed up the development process.
+Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?
 </details>
 
 <details>
 <summary><font size="+1">What tools do you currently use for machine learning projects?</font></summary>
 
-We just started our data science team. So far, the data scientists seem to be working on their own devices. We haven't explored other options yet for them to work in the Azure cloud. 
+The data science team is brand new so we haven't created any guidelines on what the data scientists should use yet. That's where we need you! 
 
-Ideally, we do want them to work with a cloud service so that we can use more scalable and cost-efficient compute. Since we work a lot with medical and privacy-sensitive data, we also want to avoid people having a copy of the data on their own device.
+So far, the data scientists seem to be working on their own devices. Which is fine for now, but not scalable. We want them to work in Azure so that we can use more scalable and cost-efficient compute.
 </details>
 
 <details>
-<summary><font size="+1">Which programming language do these data scientists use?</font></summary>
+<summary><font size="+1">Which programming language do the data scientists use?</font></summary>
 
 The data scientists only work in Python. They work in Jupyter notebooks.
 </details>
@@ -64,11 +64,7 @@ The data scientists only work in Python. They work in Jupyter notebooks.
 <details>
 <summary><font size="+1">Do you already use the cloud for other data-related projects?</font></summary>
 
-Our data engineers and data analysts are already working with Azure. One of the first large data-related projects we implemented was to create a data ingestion and transformation pipeline. The data engineers have mostly worked with Azure Synapse Analytics to create those pipelines.
-
-Data is collected from multiple sources, like the Customer Relationship Management (CRM) system we use for patient data. After collection, the data is cleaned, prepped, and saved to a SQL database. 
-
-Finally, data analysts use Power BI on top of that SQL database to visualize necessary insights. They've created reports which are used by our customers on a daily basis.
+We work with Azure for some other data-related projects. Currently, we mostly focus on getting insights from operational data. We ingest and transform data with Azure Synapse Analytics. The transformed data is stored in an Azure SQL Database which serves a Power BI report. 
 </details>
 
 ## Which tool would you recommend we use to train the model?
