@@ -42,7 +42,7 @@ lab:
 
 You're about to start an interactive game in the form of a dialog. There are two parts to the dialog:
 
-- **Explore**: Learn to ask the most appropriate question to get more information about the case study.
+- **Get more information**: Learn to ask the most appropriate question to get more information about the case study.
 - **Advise**: Use the gathered information to give advice on how to design a solution to the proposed problem. There are three scenarios to choose from. You can do as many scenarios as you'd like.
 
 Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
@@ -54,15 +54,7 @@ Each time, there will be **one optimal response**. You'll immediately get feedba
 
 Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work by exploring. 
 
-Once you've learned more about working at Proseware, you can give them advice on one of the three scenarios that they need your help with.
-
 ## What would you like to do?
-
-### Explore
-
-<button class="button" onclick="window.location.href='training/explore/01';">Explore and learn more about the work at Proseware.</button>
-
-### Advise
 
 <button class="button" onclick="window.location.href='training/advice/diabetes/01';">Give advice on how to detect diabetes.</button>
 
