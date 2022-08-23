@@ -64,7 +64,7 @@ Once you've learned more about working at Proseware, you can give them advice on
 
 ### Advise
 
-<button class="button" onclick="window.location.href='training/advice/diabetes';">Give advice on how to detect diabetes.</button>
+<button class="button" onclick="window.location.href='training/advice/diabetes/01';">Give advice on how to detect diabetes.</button>
 
 <button class="button" onclick="window.location.href='training/advice/skin';">Give advice on how to detect skin abnormalities.</button>
 
