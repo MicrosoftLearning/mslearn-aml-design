@@ -49,24 +49,26 @@ let hintUsed = 0;
 <details>
 <summary><font size="+1">What can you tell me about the current data science team?</font></summary>
 <script>
-if (hintUsed = 0) {
+if (hintUsed < 1) {
   answer = "It's a small team, we only have two other data scientists you'll be leading. We therefore advise you to allocate your time wisely. Ideally, we want our data scientists to collaborate and work on each others' work. How great would it be if we would have some kind of library of code snippets you could reuse for new projects to speed up the development process?"; 
 } else {
   answer = "You already used one hint.";
 }
 document.getElementById("hints").innerHTML = answer;
+let hintUsed = 0;
 </script>
 </details>
 
 <details>
 <summary><font size="+1">Which programming language do the data scientists use?</font></summary>
 <script>
-if (hintUsed = 0) {
-  answer = "The data scientists only work in Python. They work in Jupyter notebooks.";
+if (hintUsed < 1) {
+  answer = "The data scientists only work in Python. They work in Jupyter notebooks";
 } else {
   answer = "You already used one hint.";
 }
 document.getElementById("hints").innerHTML = answer;
+let hintUsed = 1;
 </script>
 </details>
 
