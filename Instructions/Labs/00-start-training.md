@@ -47,6 +47,9 @@ You're about to start an interactive game in the form of a dialog. There are two
 
 Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
 
+> **Note:**
+> You won't get a score at the end of the game. If you want to track how well you do, count the stars you find. There are five stars to collect!
+
 ## Case study
 
 Imagine you've just been hired as a data scientist at a company called Proseware. Since you just started, you may first want to get to know more about your work by exploring. 
