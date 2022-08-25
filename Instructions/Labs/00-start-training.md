@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Game: Choose the model training strategy'
+    title: 'Game: Choose a model training strategy'
     module: 'Module: Design a model training strategy'
 ---
 
