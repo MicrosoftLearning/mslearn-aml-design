@@ -52,7 +52,7 @@ You're about to start an interactive exercise in the form of a dialog. Each page
 
 ## Are you ready?
 
-<button class="button" onclick="window.location.href='01-training/diabetes/01';">Start the dialog exercise</button>
+<button class="button" onclick="window.location.href='02-training/diabetes/01';">Start the dialog exercise</button>
 
 ### Do you want to do another dialog exercise?
 
