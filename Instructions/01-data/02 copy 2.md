@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
   background-color: #777;
@@ -14,11 +10,9 @@
   outline: none;
   font-size: 15px;
 }
-
 .active, .collapsible:hover {
   background-color: #555;
 }
-
 .content {
   padding: 0 18px;
   display: none;
@@ -54,8 +48,6 @@
   border: 2px solid #f44336;
 }
 </style>
-</head>
-<body>
 
 <img style="float: right;width:30%;" src="./media/0-points.png">
 
@@ -63,15 +55,15 @@
 
 ## What type of data do we currently have?
 
-<button type="button" class="collapsible">Open Hint 1</button>
+<button type="button" class="collapsible">Open hint 1</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-<button type="button" class="collapsible">Open Hint 2</button>
+<button type="button" class="collapsible">Open hint 2</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-<button type="button" class="collapsible">Open Hint 3</button>
+<button type="button" class="collapsible">Open hint 3</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
