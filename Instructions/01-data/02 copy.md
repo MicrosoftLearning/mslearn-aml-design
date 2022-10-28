@@ -1,0 +1,128 @@
+<style>
+.button  {
+  border: none;
+  color: black;
+  width: 100%;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #008CBA;
+  transition-duration: 0.4s;
+}
+.button:hover  {
+  background-color: #008CBA;
+  color: white; 
+  border: 2px solid #008CBA;
+}
+.resetbutton  {
+  border: none;
+  color: black;
+  float: right;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+}
+.resetbutton:hover  {
+  background-color: #f44336;
+  color: white; 
+  border: 2px solid #f44336;
+}
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+
+<img style="float: right;width:30%;" src="./media/0-points.png">
+
+### Question 1/5
+
+## What type of data do we currently have?
+
+We have already collected data that correlates with diabetes, such as the number of pregnancies, age and BMI.
+
+<button type="button" class="collapsible">Hint 1</button>
+<div class="content">
+  <p>The data is stored our patient database.</p>
+</div>
+
+<button type="button" class="collapsible">Hint 1</button>
+<div class="content">
+  <p>The data is stored our patient database.</p>
+</div>
+
+<br>
+<details>
+<summary><font size="+1">Where is the data currently stored?</font></summary>
+The original data is coming from our patient database. Since we work with privacy-sensitive data, the patient database is secured and protected so we're not allowed direct access to it. One of our data engineers has already extracted a small subset of the data for us which he has emailed to us.  
+</details>
+
+<br>
+<details>
+<summary><font size="+1">Can I get a preview of the data?</font></summary>
+Sure! The training data is currently stored as a CSV file. If we open the file the first few rows of data like this:
+<code>
+PatientID,Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age,Diabetic
+1354778,0,171,80,34,23,43.50972593,1.213191354,21,0
+1147438,8,92,93,47,36,21.24057571,0.158364981,23,0
+1640031,7,115,47,52,35,41.51152348,0.079018568,23,0
+1883350,9,103,78,25,304,29.58219193,1.282869847,43,1
+</code>
+</details>
+
+<br>
+<details>
+<summary><font size="+1">How much data do you have?</font></summary>
+We'll initially test the idea with a small anonymized dataset of 10000 rows. The medical data we work with is privacy-sensitive so initial development should happen on the small dataset instead of the actual production dataset which the data scientists should not get access to.
+</details>
+
+Once you're ready to give advice, select the most optimal answer to the question below.
+
+## Answer:
+
+<button class="button" onclick="window.location.href='02A';">Structured</button>
+
+<button class="button" onclick="window.location.href='02B';">Semi-structured</button>
+
+<button class="button" onclick="window.location.href='02B';">Unstructured</button>
+
+
+
+<p style="text-align:right;"><i>All progress will be lost when you reset the game.</i></p>
+
+<button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game and go back to start</button>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
