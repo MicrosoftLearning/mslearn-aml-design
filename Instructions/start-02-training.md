@@ -42,17 +42,13 @@ lab:
 You're about to start an interactive exercise in the form of a dialog. Each page will show three parts:
 
 - **Introduction**: Some information is presented to introduce the question.
-- **Get more information**: Learn to ask the most appropriate follow-up question to get more information about the case study. 
-  *You'll only be allowed to ask one question (use one hint) before giving advice*.
-- **Advise**: Use the gathered information to give advice on how to design a solution to the proposed problem. 
+- **Open hints**: Get more information by opening hints. You can choose how many hints you want to use before answering the questions.
+- **Answer**: Use the gathered information to answer the question.  
   Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
-
-> **Note:**
-> You won't get a score at the end of the game. If you want to track how well you do, count the stars you find. There are five stars to collect!
 
 ## Are you ready?
 
-<button class="button" onclick="window.location.href='02-training/diabetes/01';">Start the dialog exercise</button>
+<button class="button" onclick="window.location.href='02-training/01';">Start the dialog exercise</button>
 
 ### Do you want to do another dialog exercise?
 
