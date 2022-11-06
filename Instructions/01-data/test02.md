@@ -6,10 +6,12 @@
   background-color: #70AD47;
   transition-duration: 0.4s;
   text-align: left;
+  border: 2px solid #70AD47;
 }
 .button:hover  {
   background-color: #507E32;
   color: white; 
+  border: 2px solid #507E32;
 }
 .answerbutton  {
   border: none;
