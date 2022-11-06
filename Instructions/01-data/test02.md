@@ -1,17 +1,17 @@
 <style>
 .button  {
-  color: white;
+  color: black;
   width: 100%;
   padding: 8px 28px;
-  background-color: #70AD47;
+  background-color: #50E6FF;
   transition-duration: 0.4s;
   text-align: left;
-  border: 2px solid #70AD47;
+  border: 2px solid #50E6FF;
 }
 .button:hover  {
-  background-color: #507E32;
+  background-color: #0078D4;
   color: white; 
-  border: 2px solid #507E32;
+  border: 2px solid #0078D4;
 }
 .answerbutton  {
   border: none;
@@ -19,13 +19,13 @@
   width: 100%;
   padding: 12px 28px;
   background-color: white;
-  border: 2px solid #008CBA;
+  border: 2px solid #0078D4;
   transition-duration: 0.4s;
 }
 .answerbutton:hover  {
-  background-color: #008CBA;
+  background-color: #0078D4;
   color: white; 
-  border: 2px solid #008CBA;
+  border: 2px solid #0078D4;
 }
 .resetbutton  {
   border: none;
