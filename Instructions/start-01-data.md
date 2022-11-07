@@ -18,7 +18,6 @@ lab:
   color: white; 
   border: 2px solid #008CBA;
 }
-
 .resetbutton  {
   border: none;
   color: black;
