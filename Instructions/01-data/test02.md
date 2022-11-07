@@ -14,7 +14,7 @@
   border: 2px solid #507E32;
 }
 .answerbutton  {
-  border: none;
+  border: 2px solid #0078D4;
   color: black;
   width: 100%;
   padding: 12px 28px;
