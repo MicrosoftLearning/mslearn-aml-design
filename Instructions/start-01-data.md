@@ -42,7 +42,7 @@ lab:
 You're about to start an interactive exercise in the form of a dialog. Each page will show three parts:
 
 - **Introduction**: Some information is presented to introduce the question.
-- **Open hints**: Get more information by opening hints. You can choose how many hints you want to use before answering the questions.
+- **Ask more information**: Get more information by clicking on an **Ask** button. You can choose how much extra information you want to use before answering the questions.
 - **Answer**: Use the gathered information to answer the question.  
   Each time, there will be **one optimal response**. You'll immediately get feedback to know whether you chose correctly.
 
