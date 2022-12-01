@@ -1,7 +1,4 @@
----
-lab:
-    title: 'Design a model deployment strategy'
----
+
 
 <style>
 .button  {
