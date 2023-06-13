@@ -17,20 +17,8 @@
   color: white; 
   border: 2px solid #70AD47;
 }
-.answers .button2  {
-  border: 2px solid white;
-  color: white;
-  width: 25%;
-  height: 50px;
-  background-color: #008CBA;
-  transition-duration: 0.4s;
-  float: left;
-  clear: right;
-}
-.answers .button2:hover  {
-  background-color: white;
-  color: black; 
-  border: 2px solid #008CBA;
+.selected {
+  background-color: #70AD47;
 }
 .panel {
   background-color: white;
@@ -84,10 +72,13 @@ function showContent(id) {
     selectedElement.style.display = 'block';
   }
 
-  // Disable unselected buttons
+  // Disable unselected buttons and highlight the selected button
   var buttons = document.getElementsByClassName('button');
   for (var i = 0; i < buttons.length; i++) {
-    if (buttons[i].id !== id) {
+    if (buttons[i].id === id) {
+      buttons[i].classList.add('selected');
+    } else {
+      buttons[i].classList.remove('selected');
       buttons[i].disabled = true;
     }
   }
