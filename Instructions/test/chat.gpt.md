@@ -17,6 +17,17 @@
   color: white; 
   border: 2px solid #70AD47;
 }
+.selected  {
+  border: none;
+  color: black;
+  width: 75%;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #70AD47;
+  border-radius:30px 5px 30px 30px ;
+  text-align: right;
+  float: right;
+}
 .panel {
   background-color: white;
   border: 2px solid #787878;
@@ -45,13 +56,14 @@
   float: right;
   padding: 12px 28px;
   background-color: white;
-  border: 2px solid #f44336;
+  border-radius:30px 5px 30px 30px ;
+  border: 2px solid #70AD47;
   transition-duration: 0.4s;
 }
 .resetbutton:hover  {
-  background-color: #f44336;
+  background-color: #70AD47;
   color: white; 
-  border: 2px solid #f44336;
+  border: 2px solid #70AD47;
 }
 </style>
 
@@ -70,12 +82,12 @@ function showContent(id) {
   }
 
   // Remove unselected buttons
-  var buttons = document.getElementsByClassName('button');
-  for (var i = 0; i < buttons.length; i++) {
-    if (buttons[i].id !== id) {
-      buttons[i].remove();
+  var buttons = Array.from(document.getElementsByClassName('button'));
+  buttons.forEach(function(button) {
+    if (button.id !== id) {
+      button.remove();
     }
-  }
+  });
 }
 </script>
 
@@ -94,11 +106,13 @@ You meet with the data scientist. He starts the conversation:
 <button class="button" onclick="showContent('id03')">Which language do you use?</button>
 
 <div id="id01" class="hidden-content" style="display: none;">
+  <div class="selected">Where is the data currently stored?</div>
   <div class="panel">The data is stored in a patient database.</div>
   <button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game and go back to start</button>
 </div>
 
 <div id="id02" class="hidden-content" style="display: none;">
+  <div class="selected">Can I get a preview of the data?</div>
   <div class="panel">If we open the file, the first few rows of data look like this:
     <pre>
       PatientID,Pregnancies,PlasmaGlucose,DiastolicBloodPressure,TricepsThickness,SerumInsulin,BMI,DiabetesPedigree,Age,Diabetic
@@ -112,6 +126,7 @@ You meet with the data scientist. He starts the conversation:
 </div>
 
 <div id="id03" class="hidden-content" style="display: none;">
+  <div class="selected">Which language do you use?</div>
   <div class="panel">I'm mostly comfortable with Python, so that's also what we all tend to use.</div>
   <button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game and go back to start</button>
 </div>
