@@ -17,9 +17,6 @@
   color: white; 
   border: 2px solid #70AD47;
 }
-.selected {
-  background-color: #70AD47;
-}
 .panel {
   background-color: white;
   border: 2px solid #787878;
@@ -72,14 +69,11 @@ function showContent(id) {
     selectedElement.style.display = 'block';
   }
 
-  // Disable unselected buttons and highlight the selected button
+  // Remove unselected buttons
   var buttons = document.getElementsByClassName('button');
   for (var i = 0; i < buttons.length; i++) {
-    if (buttons[i].id === id) {
-      buttons[i].classList.add('selected');
-    } else {
-      buttons[i].classList.remove('selected');
-      buttons[i].disabled = true;
+    if (buttons[i].id !== id) {
+      buttons[i].remove();
     }
   }
 }
