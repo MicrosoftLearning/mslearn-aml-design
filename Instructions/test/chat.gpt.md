@@ -102,11 +102,11 @@ You meet with the data scientist. He starts the conversation:
 
 <div class="panel">Hi! I'm Albert, the resident data scientist. I've been working here for some years already, so feel free to ask me anything you need to know about how we trained the model.</div>
 
-<button id="id01" class="button" onclick="showContent('id01')">Where is the data currently stored?</button>
+<button class="button" onclick="showContent('id01')">Where is the data currently stored?</button>
 
-<button id="id02" class="button" onclick="showContent('id02')">Can I get a preview of the data?</button>
+<button class="button" onclick="showContent('id02')">Can I get a preview of the data?</button>
 
-<button id="id03" class="button" onclick="showContent('id03')">Which language do you use?</button>
+<button class="button" onclick="showContent('id03')">Which language do you use?</button>
 
 <div id="id01" class="hidden-content" style="display: none;">
   <div class="panel">The data is stored in a patient database.</div>
@@ -128,4 +128,6 @@ You meet with the data scientist. He starts the conversation:
 
 <div id="id03" class="hidden-content" style="display: none;">
   <div class="panel">I'm mostly comfortable with Python, so that's also what we all tend to use.</div>
-  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game
+  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game and go back to start</button>
+</div>
+
