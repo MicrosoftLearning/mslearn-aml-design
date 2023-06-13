@@ -1,0 +1,76 @@
+<style>
+.button  {
+  color: white;
+  width: 100%;
+  padding: 8px 28px;
+  background-color: #70AD47;
+  transition-duration: 0.4s;
+  text-align: left;
+  border: 2px solid #70AD47;
+}
+.button:hover  {
+  background-color: #507E32;
+  color: white; 
+  border: 2px solid #507E32;
+}
+.answerbutton  {
+  border: 2px solid #0078D4;
+  color: black;
+  width: 100%;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #0078D4;
+  transition-duration: 0.4s;
+}
+.answerbutton:hover  {
+  background-color: #0078D4;
+  color: white; 
+  border: 2px solid #0078D4;
+}
+.resetbutton  {
+  border: none;
+  color: black;
+  float: right;
+  padding: 12px 28px;
+  background-color: white;
+  border: 2px solid #f44336;
+  transition-duration: 0.4s;
+}
+.resetbutton:hover  {
+  background-color: #f44336;
+  color: white; 
+  border: 2px solid #f44336;
+}
+</style>
+
+<img style="float: right;width:5%;" src="./media/help.png">
+
+# Your conversation with the data scientist
+
+When we automatically extract data from the patient database, we want the data to be anonymized. We must delete all personally identifiable information (PII).
+
+<button class="button" onclick="document.getElementById('id01').style.display='block'">Ask: Who will be responsible of configuring the transformations of the data?</button>
+
+<div id="id01" style="display:none;">
+  <p>Anonymizing data seems like a simple task. Ideally, this task would be performed by the data engineer. However, we would like data scientists to be able to do this even when a data engineer is not available, possibly through an easy-to-use interface?</p>
+</div>
+
+<button class="button" onclick="document.getElementById('id02').style.display='block'">Ask: How much data do you have?</button>
+
+<div id="id02" class="panel" style="display:none;">
+  <p>Since we want to train the model on as much data as possible, the tool should be able to handle large amounts of data.</p>
+</div>
+
+## Select your answer:
+
+<button class="answerbutton" onclick="window.location.href='05B';">Azure Cognitive Services</button>
+
+<button class="answerbutton" onclick="window.location.href='05B';">Azure Machine Learning</button>
+
+<button class="answerbutton" onclick="window.location.href='05B';">Azure Databricks</button>
+
+<button class="answerbutton" onclick="window.location.href='05A';">Azure Synapse Analytics</button>
+
+<p style="text-align:right;"><i>All progress will be lost when you reset the game.</i></p>
+
+<button class="resetbutton" onclick="window.location.href='../start-01-data';">Reset game and go back to start</button>
