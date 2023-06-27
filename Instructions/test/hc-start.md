@@ -40,7 +40,7 @@
   margin-bottom: 20px;
   text-align: left;
 }
-.resetbutton  {
+.response  {
   border: none;
   color: black;
   float: right;
@@ -50,7 +50,7 @@
   border: 2px solid #70AD47;
   transition-duration: 0.4s;
 }
-.resetbutton:hover  {
+.response:hover  {
   background-color: #70AD47;
   color: white; 
   border: 2px solid #70AD47;
@@ -96,14 +96,14 @@ You are greeted at the door:
 <div id="id01" class="hidden-content" style="display: none;">
   <div class="selected">That sounds fascinating! How does this application work?</div>
   <div class="panel">Great question! Our application utilizes machine learning algorithms to analyze various medical parameters, such as BMI and age, to predict the likelihood of a patient having diabetes. Medical professionals can enter a patient’s information into the app and use the prediction to decide on further actions.</div>
-  <button class="resetbutton" onclick="showContent('id03')">That’s really interesting! I’d like to learn more about the technical aspects. Could you suggest someone I can talk to about the data science behind the application?</button>
+  <button class="response" onclick="showContent('id03')">That’s really interesting! I’d like to learn more about the technical aspects. Could you suggest someone I can talk to about the data science behind the application?</button>
 </div>
 
 <div id="id02" class="hidden-content" style="display: none;">
   <div class="selected">That’s really interesting! I’d like to learn more about the technical aspects. Could you suggest someone I can talk to about the data science behind the application?</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.
   </div>
-  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 
 <div id="id03" class="hidden-content" style="display: none;">
@@ -111,6 +111,6 @@ You are greeted at the door:
   <div class="panel">Great question! Our application utilizes machine learning algorithms to analyze various medical parameters, such as BMI and age, to predict the likelihood of a patient having diabetes. Medical professionals can enter a patient’s information into the app and use the prediction to decide on further actions.</div>
   <div class="selected">That’s really interesting! Could you suggest someone I can talk to about the data science behind the application?</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.</div>
-  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 

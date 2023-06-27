@@ -40,7 +40,7 @@
   margin-bottom: 20px;
   text-align: left;
 }
-.resetbutton  {
+.response  {
   border: none;
   color: black;
   float: right;
@@ -50,7 +50,7 @@
   border: 2px solid #70AD47;
   transition-duration: 0.4s;
 }
-.resetbutton:hover  {
+.response:hover  {
   background-color: #70AD47;
   color: white; 
   border: 2px solid #70AD47;
@@ -96,17 +96,17 @@ You are greeted at the door:
 <div id="id01" class="hidden-content" style="display: none;">
   <div class="selected">Yes! I talked to enough of your colleagues to help you and give advice on which solution best suits your needs.</div>
   <div class="panel">Perfect! What do you want to focus on?</div>
-  <button class="resetbutton" onclick="showContent('id01-01')">A - long answer to make sure it's below the response</button>
-  <button class="resetbutton" onclick="showContent('id01-02')">B - long answer to make sure it's below the response</button>
-  <button class="resetbutton" onclick="showContent('id01-03')">C - long answer to make sure it's below the response</button>
-  <button class="resetbutton" onclick="showContent('id01-04')">D - long answer to make sure it's below the response </button>
+  <button class="response" onclick="showContent('id01-01')">A - long answer to make sure it's below the response</button>
+  <button class="response" onclick="showContent('id01-02')">B - long answer to make sure it's below the response</button>
+  <button class="response" onclick="showContent('id01-03')">C - long answer to make sure it's below the response</button>
+  <button class="response" onclick="showContent('id01-04')">D - long answer to make sure it's below the response </button>
 </div>
 
 <div id="id01-02" class="hidden-content" style="display: none;">
   <div class="selected">A - long answer to make sure it's below the response</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.
   </div>
-  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 
 <div id="id03" class="hidden-content" style="display: none;">
@@ -114,6 +114,6 @@ You are greeted at the door:
   <div class="panel">Great question! Our application utilizes machine learning algorithms to analyze various medical parameters, such as BMI and age, to predict the likelihood of an individual having diabetes. Medical professionals can enter a patient’s information into the app and use the prediction to decide on further actions.</div>
   <div class="selected">That’s really interesting! Could you suggest someone I can talk to about the data science behind the application?</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.</div>
-  <button class="resetbutton" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../start-01-data';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 

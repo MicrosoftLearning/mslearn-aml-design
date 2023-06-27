@@ -87,23 +87,23 @@ function showContent(id) {
 
 You walk to their desk and sit down to talk:
 
-<img src="./media/data-scientist.svg" alt="Hotel" style="width:20%; float:left"> <div class="panel">Hi! I just got hired as the first data scientist and feel a bit like a fish out of water. I don't know if I can help you.</div>
+<img src="./media/data-engineer.svg" alt="Hotel" style="width:20%; float:left"> <div class="panel">Oh hello. I guess you're doing something with data science right? I'm not too familiar with that whole thing, but I guess I could help with some questions around our data estate.</div>
 
-<button class="button" onclick="showContent('id01')">I'm here to help you! Which programming language are you familiar with to train machine learning models?</button>
+<button class="button" onclick="showContent('id01')">Don't worry about the data science. Which cloud services do you already use for other data projects?</button>
 
-<button class="button" onclick="showContent('id02')">How are you planning to train the model to predict diabetes in patients?</button>
+<button class="button" onclick="showContent('id02')">The data scientists will need historical data that includes a patient's medical information and whether they have diabetes. Do you know where that data is currently stored?</button>
 
 <div id="id01" class="hidden-content" style="display: none;">
-  <div class="selected">I'm here to help you! Which programming language are you familiar with to train machine learning models?</div>
-  <div class="panel">I'll be honest with you... I haven't been part of large enterprise data science teams yet. So, I still use Python as that is what I've learned during my studies.</div>
-  <button class="response" onclick="window.location.href='../hc-office';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
+  <div class="selected">Don't worry about the data science. Which cloud services do you already use for other data projects?</div>
+  <div class="panel">For our main data analysis, we load data into a data lake and transform it with Azure Data Factory. The clean data is stored in a SQL database to serve a Power BI report.</div>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you for taking the time to answer my question! I'll leave you to it.</button>
 </div>
 
 <div id="id02" class="hidden-content" style="display: none;">
-  <div class="selected">How are you planning to train the model to predict diabetes in patients?</div>
-  <div class="panel">I'd say it's pretty optimistic of you to think I have a plan. I prefer working in Jupyter notebooks to train machine learning models. I'm not very familiar with any cloud services but could learn to work with another tool I guess...
+  <div class="selected">The data scientists will need historical data that includes a patient's medical information and whether they have diabetes. Do you know where that data is currently stored?</div>
+  <div class="panel">In line with government regulations, we use software that medical professionals use to enter and retrieve patient information. Whenever we want to use data from the software, we pull anonymized data through an API. We're not allowed to do any data analysis directly in the software.
   </div>
-  <button class="response" onclick="window.location.href='../hc-office';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you for taking the time to answer my question! I'll leave you to it.</button>
 </div>
 
 
