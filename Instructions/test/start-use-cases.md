@@ -8,7 +8,6 @@
 .container {
   position: relative;
   width: 33.3%;
-  max-width: 400px;
 }
 
 .container img {
