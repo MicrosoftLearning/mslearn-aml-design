@@ -42,9 +42,9 @@
 
 Welcome to this game. Choose your adventure by selecting one of the options below.
 
-<button class="btn"><img src="./media/hotel-icon.jpg" alt="Hotel" style="width:30%;float:left"></button>
+<!-- <button class="btn"><img src="./media/hotel-icon.jpg" alt="Hotel" style="width:30%;float:left"></button>
 
 <button class="btn"><img src="./media/supermarket-icon.jpg" alt="Supermarket" style="width:30%"></button>
 
-<button class="btn"><img src="./media/hospital-icon.jpg" alt="Health care" style="width:30%;float:right"></button>
+<button class="btn"><img src="./media/hospital-icon.jpg" alt="Health care" style="width:30%;float:right"></button> -->
 
