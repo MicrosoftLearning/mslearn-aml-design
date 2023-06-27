@@ -6,7 +6,7 @@
 }
 
 .container {
-  position: relative;
+  float: left;
   width: 33.3%;
 }
 
