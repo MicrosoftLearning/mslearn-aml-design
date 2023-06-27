@@ -53,7 +53,7 @@ Welcome to this game. Choose your adventure by selecting one of the options belo
   </div>
   <div class="container">
     <img src="./media/hospital-icon.jpg" alt="Health care" style="width:100%">
-    <button class="btn" onclick="window.location.href='../hc-start';">Health care</button>
+    <button class="btn" onclick="window.location.href='./hc-start';">Health care</button>
   </div>
 </div>
 
