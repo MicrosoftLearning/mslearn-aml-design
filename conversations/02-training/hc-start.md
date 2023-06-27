@@ -87,7 +87,9 @@ function showContent(id) {
 
 You are greeted at the door:
 
-<img src="./media/welcome-project-manager.svg" alt="Hotel" style="width:20%; float:left"> <div class="panel">Welcome to Proseware! We’re a start-up focused on revolutionizing healthcare through innovative applications. I'm Taylor and I work here as a project manager.</div>
+<img src="./media/welcome-project-manager.svg" alt="Hotel" style="width:20%; float:left"> 
+
+<div class="panel">Welcome to Proseware! We’re a start-up focused on revolutionizing healthcare through innovative applications. I'm Taylor and I work here as a project manager.</div>
 
 <button class="button" onclick="showContent('id01')">That sounds fascinating! How does this application work?</button>
 

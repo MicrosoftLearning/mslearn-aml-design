@@ -87,7 +87,9 @@ function showContent(id) {
 
 You are greeted at the door:
 
-<img src="./media/welcome-project-manager.svg" alt="Hotel" style="width:20%; float:left"> <div class="panel">Hi again! Do you have all the information you need to help me?</div>
+<img src="./media/welcome-project-manager.svg" alt="Hotel" style="width:20%; float:left"> 
+
+<div class="panel">Hi again! Do you have all the information you need to help me?</div>
 
 <button class="button" onclick="showContent('id01')">Yes! I talked to enough of your colleagues to help you and give advice on which solution best suits your needs.</button>
 

@@ -98,14 +98,14 @@ You walk to their desk and sit down to talk:
 <div id="id01" class="hidden-content" style="display: none;">
   <div class="selected">I'm here to help you! Which programming language are you familiar with to train machine learning models?</div>
   <div class="panel">I'll be honest with you... I haven't been part of large enterprise data science teams yet. So, I still use Python as that is what I've learned during my studies.</div>
-  <button class="response" onclick="window.location.href='../office-health-care';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
+  <button class="response" onclick="window.location.href='./hc-office';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
 </div>
 
 <div id="id02" class="hidden-content" style="display: none;">
   <div class="selected">How are you planning to train the model to predict diabetes in patients?</div>
   <div class="panel">I'd say it's pretty optimistic of you to think I have a plan. I prefer working in Jupyter notebooks to train machine learning models. I'm not very familiar with any cloud services but could learn to work with another tool I guess...
   </div>
-  <button class="response" onclick="window.location.href='../office-health-care';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you! That's great to know. I'll talk to your colleagues to see what works best for this project.</button>
 </div>
 
 

@@ -46,26 +46,26 @@ Choose who you want to talk to next. Finally, when you gathered all information,
 <div class="row">
   <div class="container">
     <img src="./media/door.svg" alt="Talk to the data scientist" style="width:100%">
-      <button class="btn" onclick="window.location.href='../hc-data-scientist';">Talk to the data scientist</button>
+      <button class="btn" onclick="window.location.href='./hc-data-scientist';">Talk to the data scientist</button>
     </div>
     <div class="container">
     <img src="./media/door.svg" alt="Talk to the software engineer" style="width:100%">
-      <button class="btn" onclick="window.location.href='../hc-software-engineer';">Talk to the software engineer</button>
+      <button class="btn" onclick="window.location.href='./hc-software-engineer';">Talk to the software engineer</button>
     </div>
 
 <div class="row">
   <div class="container">
     <img src="./media/door.svg" alt="Talk to the business user" style="width:100%">
-      <button class="btn" onclick="window.location.href='../hc-business-user';">Talk to the business users</button>
+      <button class="btn" onclick="window.location.href='./hc-business-user';">Talk to the business users</button>
     </div>
     <div class="container">
     <img src="./media/door.svg" alt="Talk to the data engineer" style="width:100%">
-      <button class="btn" onclick="window.location.href='../hc-data-engineer';">Talk to the data engineer</button>
+      <button class="btn" onclick="window.location.href='./hc-data-engineer';">Talk to the data engineer</button>
     </div>
   </div>
 
 <div class="row">
   <div class="container">
     <img src="./media/door-health-care.svg" alt="Talk to the project manager" style="width:100%">
-      <button class="btn" onclick="window.location.href='../hc-end';">Talk to the project manager</button>
+      <button class="btn" onclick="window.location.href='./hc-end';">Talk to the project manager</button>
   </div>
