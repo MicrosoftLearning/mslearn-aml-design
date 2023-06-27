@@ -42,18 +42,9 @@
 
 Welcome to this game. Choose your adventure by selecting one of the options below.
 
-<div class="row">
-  <div class="container">
-    <img src="./media/hotel-icon.jpg" alt="Hotel" style="width:100%">
-    <button class="btn">Hotel</button>
-  </div>
-  <div class="container">
-    <img src="./media/supermarket-icon.jpg" alt="Supermarket" style="width:100%">
-    <button class="btn">Supermarket</button>
-  </div>
-  <div class="container">
-    <img src="./media/hospital-icon.jpg" alt="Health care" style="width:100%">
-    <button class="btn" onclick="window.location.href='./hc-start';">Health care</button>
-  </div>
-</div>
+<button class="btn"><img src="./media/hotel-icon.jpg" alt="Hotel" style="width:30%;float:left"></button>
+
+<button class="btn"><img src="./media/supermarket-icon.jpg" alt="Supermarket" style="width:30%"></button>
+
+<button class="btn"><img src="./media/hospital-icon.jpg" alt="Health care" style="width:30%;float:right"></button>
 
