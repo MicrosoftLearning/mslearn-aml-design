@@ -8,6 +8,8 @@
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  width: 30%;
+  float: left;
 }
 
 .btn:hover {
