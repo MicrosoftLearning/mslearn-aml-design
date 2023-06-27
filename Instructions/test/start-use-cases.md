@@ -38,7 +38,7 @@
 }
 </style>
 
-## Start
+# Start
 
 Welcome to this game. Choose your adventure by selecting one of the options below.
 
