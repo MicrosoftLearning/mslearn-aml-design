@@ -52,8 +52,8 @@ Welcome to this game. Choose your adventure by selecting one of the options belo
     <button class="btn">Supermarket</button>
   </div>
   <div class="container">
-    <img src="./media/hospital-icon.jpg" alt="Hospital" style="width:100%">
-    <button class="btn">Hospital</button>
+    <img src="./media/hospital-icon.jpg" alt="Health care" style="width:100%">
+    <button class="btn">Health care</button>
   </div>
 </div>
 
