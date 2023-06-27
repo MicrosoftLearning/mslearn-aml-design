@@ -1,40 +1,19 @@
 <style>
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.container {
-  position: relative;
-  width: 33.3%;
-  max-width: 400px;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.container .btn {
-  position: absolute;
-  top: 110%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
+.btn {
+  background-color: white;
+  color: black;
   font-size: 16px;
   padding: 16px 30px;
-  border: none;
+  border: 2px solid black;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
 }
 
-.container .btn:hover {
+.btn:hover {
   background-color: white;
   color: black;
+  border: 6px solid black;
 }
 </style>
 
