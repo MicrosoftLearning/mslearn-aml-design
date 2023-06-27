@@ -103,7 +103,7 @@ You are greeted at the door:
   <div class="selected">That’s really interesting! I’d like to learn more about the technical aspects. Could you suggest someone I can talk to about the data science behind the application?</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.
   </div>
-  <button class="response" onclick="window.location.href='./hc-office';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 
 <div id="id03" class="hidden-content" style="display: none;">
@@ -111,6 +111,6 @@ You are greeted at the door:
   <div class="panel">Great question! Our application utilizes machine learning algorithms to analyze various medical parameters, such as BMI and age, to predict the likelihood of a patient having diabetes. Medical professionals can enter a patient’s information into the app and use the prediction to decide on further actions.</div>
   <div class="selected">That’s really interesting! Could you suggest someone I can talk to about the data science behind the application?</div>
   <div class="panel">Certainly! Feel free to explore our office and chat with our team members. Once you’ve gathered the information you need, come back to me and let’s discuss the best solution for this project.</div>
-  <button class="response" onclick="window.location.href='./hc-office';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
+  <button class="response" onclick="window.location.href='../hc-office';">Thank you for the information. I'm excited to explore the office and speak with the team.</button>
 </div>
 

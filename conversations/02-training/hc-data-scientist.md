@@ -87,7 +87,9 @@ function showContent(id) {
 
 You walk to their desk and sit down to talk:
 
-<img src="./media/data-scientist.svg" alt="Hotel" style="width:20%; float:left"> <div class="panel">Hi! I just got hired as the first data scientist and feel a bit like a fish out of water. I don't know if I can help you.</div>
+<img src="./media/data-scientist.svg" alt="Hotel" style="width:20%; float:left"> 
+
+<div class="panel">Hi! I just got hired as the first data scientist and feel a bit like a fish out of water. I don't know if I can help you.</div>
 
 <button class="button" onclick="showContent('id01')">I'm here to help you! Which programming language are you familiar with to train machine learning models?</button>
 

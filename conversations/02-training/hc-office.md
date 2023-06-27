@@ -55,8 +55,8 @@ Choose who you want to talk to next. Finally, when you gathered all information,
 
 <div class="row">
   <div class="container">
-    <img src="./media/door.svg" alt="Talk to the business users" style="width:100%">
-      <button class="btn">Talk to the business users</button>
+    <img src="./media/door.svg" alt="Talk to the business user" style="width:100%">
+      <button class="btn" onclick="window.location.href='../hc-business-user';">Talk to the business users</button>
     </div>
     <div class="container">
     <img src="./media/door.svg" alt="Talk to the data engineer" style="width:100%">
